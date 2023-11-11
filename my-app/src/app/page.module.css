@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #131313;
 }
 
 .description {
@@ -107,6 +108,18 @@
 .logo {
   position: relative;
 }
+.post{
+  display: flex;
+  background-color:#121212;
+  color:white;
+  font-size: medium;
+  border: 2px solid #ffffff;
+  width:400px;
+  height: 200px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -201,6 +214,7 @@
     z-index: 1;
   }
 }
+
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {

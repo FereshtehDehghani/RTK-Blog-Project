@@ -1,11 +1,10 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import Counter from "@/components/Counter";
+import PostsList from "@/features/posts/PostsList";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Counter />
+      <PostsList className={styles.post} />
     </main>
   );
 }
